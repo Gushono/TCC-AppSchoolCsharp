@@ -1,0 +1,231 @@
+C:\Samuel\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.csprojResolveAssemblyReference.cache
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\csc.exe
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\System.Collections.Immutable.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\System.Reflection.Metadata.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\vbc.exe
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe
+C:\Samuel\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe.config
+C:\Samuel\TCC\AppSchool\AppSchool\bin\AppSchool.dll.config
+C:\Samuel\TCC\AppSchool\AppSchool\bin\AppSchool.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\AppSchool.pdb
+C:\Samuel\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\Microsoft.Web.Infrastructure.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Razor.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.dll
+C:\Samuel\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Razor.xml
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.xml
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.xml
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.xml
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.xml
+C:\Samuel\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.xml
+C:\Samuel\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.dll
+C:\Samuel\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.pdb
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\csc.exe
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\System.Collections.Immutable.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\System.Reflection.Metadata.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\vbc.exe
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe.config
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.dll.config
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.pdb
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.Web.Infrastructure.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Razor.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Razor.xml
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.xml
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.xml
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.xml
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.xml
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.xml
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.dll
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.pdb
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\csc.exe
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\System.Collections.Immutable.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\System.Reflection.Metadata.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\vbc.exe
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe.config
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.dll.config
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.pdb
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.Web.Infrastructure.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Razor.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Razor.xml
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.xml
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.xml
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.xml
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.xml
+C:\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.xml
+C:\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.csprojResolveAssemblyReference.cache
+C:\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.dll
+C:\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.pdb
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\csc.exe
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\System.Collections.Immutable.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\System.Reflection.Metadata.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\vbc.exe
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe.config
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.dll.config
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\AppSchool.pdb
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.Web.Infrastructure.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Razor.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Razor.xml
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.xml
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.xml
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.xml
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.xml
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.xml
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.csprojResolveAssemblyReference.cache
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.dll
+P:\Paulo Henrique Pansani\Alunos\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.pdb
+C:\SarahDomingues\samuelTcc\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.csprojResolveAssemblyReference.cache
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\csc.exe
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\System.Collections.Immutable.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\System.Reflection.Metadata.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\vbc.exe
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe.config
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\AppSchool.dll.config
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\AppSchool.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\AppSchool.pdb
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\Microsoft.Web.Infrastructure.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Razor.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Razor.xml
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.xml
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.xml
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.xml
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.xml
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.xml
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.csprojResolveAssemblyReference.cache
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.dll
+C:\Samuel\TCCSARAH\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.pdb
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\csc.exe
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\System.Collections.Immutable.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\System.Reflection.Metadata.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\vbc.exe
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe.config
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\AppSchool.dll.config
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\AppSchool.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\AppSchool.pdb
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\Microsoft.Web.Infrastructure.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Razor.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Razor.xml
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.xml
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.xml
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.xml
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Helpers.xml
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\bin\System.Web.Mvc.xml
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.csprojResolveAssemblyReference.cache
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.dll
+C:\Samuel\TCC\TCCSARAH\TCC\AppSchool\AppSchool\obj\Debug\AppSchool.pdb
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\csc.exe
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\System.Collections.Immutable.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\System.Reflection.Metadata.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\vbc.exe
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\roslyn\VBCSCompiler.exe.config
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\AppSchool.dll.config
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\AppSchool.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\AppSchool.pdb
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\Microsoft.Web.Infrastructure.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Helpers.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Mvc.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Razor.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Webpages.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Razor.xml
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Webpages.xml
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Webpages.Deployment.xml
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Webpages.Razor.xml
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Helpers.xml
+C:\Eu(rik)\new\AppSchool\AppSchool\bin\System.Web.Mvc.xml
+C:\Eu(rik)\new\AppSchool\AppSchool\obj\Debug\AppSchool.csprojResolveAssemblyReference.cache
+C:\Eu(rik)\new\AppSchool\AppSchool\obj\Debug\AppSchool.dll
+C:\Eu(rik)\new\AppSchool\AppSchool\obj\Debug\AppSchool.pdb

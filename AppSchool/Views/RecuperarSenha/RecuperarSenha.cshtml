@@ -1,0 +1,26 @@
+﻿@model AppSchool.Models.RecuperarSenha
+
+@{
+    ViewBag.Title = "Recuperar Senha";
+}
+<center>
+    <h2>Recuperar Senha</h2>
+    <div class="form-horizontal">
+        <hr />
+        <form class="login100-form validate-form" method="post">
+            <div>
+                <input id="cpf" name="cpf" placeholder="CPF">
+            </div><br />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Pesquisar" class="btn btn-default" />
+                </div>
+                <br />
+                <div class="col-md-offset-2 col-md-10">
+                    <a href="~/Login/Login" class="btn btn-light">Voltar</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <br />
+</center>

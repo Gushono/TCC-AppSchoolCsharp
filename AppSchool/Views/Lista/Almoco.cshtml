@@ -1,0 +1,26 @@
+﻿@model IEnumerable<AppSchool.Models.Cadastro>
+@{
+    ViewBag.Title = "Almoço";
+}
+<center>
+    <h2>Alunos que almoçam</h2>
+    <br/>
+    <table border=1>
+        <tr>
+            <th WIDTH=100><center>@Html.DisplayNameFor(model => model.Nome)</center></th>
+            <th WIDTH=100><center>@Html.DisplayNameFor(model => model.Rm)</center></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td><center>@Html.DisplayFor(modelItem => item.Nome)</center></td>
+                <td><center>@Html.DisplayFor(modelItem => item.Rm)</center></td>
+            </tr>
+        }
+
+    </table>
+    <br/>
+        <div class="col-md-offset-2 col-md-10">
+            <a href="~/Principal/Principal" class="btn btn-light">Voltar</a>
+        </div>
+    </center>

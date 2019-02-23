@@ -1,0 +1,45 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 2000px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 270px;
+    overflow: visible;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    font-size: 20px;
+    color: black;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: block;}
+
+.show {display:block;}

@@ -1,0 +1,79 @@
+﻿@model IEnumerable<AppSchool.Models.Cadastro>
+
+@{
+    ViewBag.Title = "Lista de Professor";
+}
+
+<h2>Lista de Professor</h2>
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Nome)</th>
+        <th>@Html.DisplayNameFor(model => model.Cpf)</th>
+        <th>@Html.DisplayNameFor(model => model.Rg)</th>
+        <th>@Html.DisplayNameFor(model => model.Sexo)</th>
+        <th>@Html.DisplayNameFor(model => model.Nascimento)</th>
+        <th>@Html.DisplayNameFor(model => model.Celular)</th>
+        <th>@Html.DisplayNameFor(model => model.Email)</th>
+        <th>@Html.DisplayNameFor(model => model.Cidade)</th>
+        <th>@Html.DisplayNameFor(model => model.Cep)</th>
+        <th>@Html.DisplayNameFor(model => model.Endereco)</th>
+        <th>@Html.DisplayNameFor(model => model.Numero)</th>
+        <th>@Html.DisplayNameFor(model => model.Cnpj)</th>
+        <th>@Html.DisplayNameFor(model => model.Materia)</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nome)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cpf)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rg)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Sexo)
+        </td>
+        <td>
+            @item.Nascimento.ToShortDateString()
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Celular)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cidade)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cep)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Endereco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Numero)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cnpj)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Materia)
+        </td>
+       
+        <td>
+            @Html.ActionLink("Editar", "EditarProfessor", new { id = item.Cpf }) |
+            @Html.ActionLink("Excluir", "ExcluirProfessor", new { id = item.Cpf })
+        </td>
+    </tr>
+}
+
+</table>
+<br />
+<div class="col-md-offset-2 col-md-10">
+    <a href="~/Lista/Professor" class="btn btn-light">Voltar</a>
+</div>

@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{83694971-A748-411B-AD53-41074FACCEDE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppSchool</RootNamespace>
+    <AssemblyName>AppSchool</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\animate.css" />
+    <Content Include="App_Data\animsition.css" />
+    <Content Include="App_Data\animsition.js" />
+    <Content Include="App_Data\animsition.min.css" />
+    <Content Include="App_Data\animsition.min.js" />
+    <Content Include="App_Data\bg-01.jpg" />
+    <Content Include="App_Data\bootstrap-grid.css" />
+    <Content Include="App_Data\bootstrap-grid.min.css" />
+    <Content Include="App_Data\bootstrap-reboot.css" />
+    <Content Include="App_Data\bootstrap-reboot.min.css" />
+    <Content Include="App_Data\bootstrap.css" />
+    <Content Include="App_Data\bootstrap.js" />
+    <Content Include="App_Data\bootstrap.min.css" />
+    <Content Include="App_Data\bootstrap.min.js" />
+    <Content Include="App_Data\countdowntime.js" />
+    <Content Include="App_Data\daterangepicker.css" />
+    <Content Include="App_Data\daterangepicker.js" />
+    <Content Include="App_Data\favicon.ico" />
+    <Content Include="App_Data\font-awesome.css" />
+    <Content Include="App_Data\font-awesome.min.css" />
+    <Content Include="App_Data\fontawesome-webfont.svg" />
+    <Content Include="App_Data\hamburgers.css" />
+    <Content Include="App_Data\hamburgers.min.css" />
+    <Content Include="App_Data\HELP-US-OUT.txt" />
+    <Content Include="App_Data\jquery-3.2.1.min.js" />
+    <Content Include="App_Data\main.css" />
+    <Content Include="App_Data\main.js" />
+    <Content Include="App_Data\moment.js" />
+    <Content Include="App_Data\moment.min.js" />
+    <Content Include="App_Data\ola.png" />
+    <Content Include="App_Data\perfect-scrollbar.css" />
+    <Content Include="App_Data\perfect-scrollbar.min.js" />
+    <Content Include="App_Data\popper.js" />
+    <Content Include="App_Data\popper.min.js" />
+    <Content Include="App_Data\select2.css" />
+    <Content Include="App_Data\select2.js" />
+    <Content Include="App_Data\select2.min.css" />
+    <Content Include="App_Data\select2.min.js" />
+    <Content Include="App_Data\tooltip.js" />
+    <Content Include="App_Data\util.css" />
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\animsition.css" />
+    <Content Include="Content\animsition.min.css" />
+    <Content Include="Content\bootstrap-grid.css" />
+    <Content Include="Content\bootstrap-grid.min.css" />
+    <Content Include="Content\bootstrap-reboot.css" />
+    <Content Include="Content\bootstrap-reboot.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\daterangepicker.css" />
+    <Content Include="Content\elegant-fonts.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\hamburgers.css" />
+    <Content Include="Content\hamburgers.min.css" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\mainForm.css" />
+    <Content Include="Content\perfect-scrollbar.css" />
+    <Content Include="Content\select2.css" />
+    <Content Include="Content\select2.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\swiper.css" />
+    <Content Include="Content\swiper.min.css" />
+    <Content Include="Content\themify-icons.css" />
+    <Content Include="Content\util.css" />
+    <Content Include="Content\utilForm.css" />
+    <Content Include="fonts\ElegantIcons.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\OFL.txt" />
+    <Content Include="fonts\themify.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="NewFolder1\1.jpg" />
+    <Content Include="NewFolder1\2.jpg" />
+    <Content Include="NewFolder1\3.jpg" />
+    <Content Include="NewFolder1\a.jpg" />
+    <Content Include="NewFolder1\about-bg.jpg" />
+    <Content Include="NewFolder1\b.jpg" />
+    <Content Include="NewFolder1\bg-01.jpg" />
+    <Content Include="NewFolder1\c.jpg" />
+    <Content Include="NewFolder1\cause-1.jpg" />
+    <Content Include="NewFolder1\cause-2.jpg" />
+    <Content Include="NewFolder1\cause-3.jpg" />
+    <Content Include="NewFolder1\cause-4.jpg" />
+    <Content Include="NewFolder1\cause-5.jpg" />
+    <Content Include="NewFolder1\cause-6.jpg" />
+    <Content Include="NewFolder1\cause-bg.jpg" />
+    <Content Include="NewFolder1\causes-bg.jpg" />
+    <Content Include="NewFolder1\charity-gray.png" />
+    <Content Include="NewFolder1\charity-white.png" />
+    <Content Include="NewFolder1\charity.png" />
+    <Content Include="NewFolder1\contact-bg.jpg" />
+    <Content Include="NewFolder1\d.jpg" />
+    <Content Include="NewFolder1\donate-icon.png" />
+    <Content Include="NewFolder1\donation-gray.png" />
+    <Content Include="NewFolder1\donation-white.png" />
+    <Content Include="NewFolder1\donation.png" />
+    <Content Include="NewFolder1\dove.png" />
+    <Content Include="NewFolder1\e.jpg" />
+    <Content Include="NewFolder1\elements-bg.jpg" />
+    <Content Include="NewFolder1\event-1.jpg" />
+    <Content Include="NewFolder1\event-2.jpg" />
+    <Content Include="NewFolder1\event-3.jpg" />
+    <Content Include="NewFolder1\eye-for.jpg" />
+    <Content Include="NewFolder1\f.jpg" />
+    <Content Include="NewFolder1\favicon.ico" />
+    <Content Include="NewFolder1\featured-causes.jpg" />
+    <Content Include="NewFolder1\foot-bg.jpg" />
+    <Content Include="NewFolder1\foot-logo.png" />
+    <Content Include="NewFolder1\g.jpg" />
+    <Content Include="NewFolder1\h.jpg" />
+    <Content Include="NewFolder1\hands-gray.png" />
+    <Content Include="NewFolder1\hands-white.png" />
+    <Content Include="NewFolder1\hero.jpg" />
+    <Content Include="NewFolder1\i.jpg" />
+    <Content Include="NewFolder1\img-01.png" />
+    <Content Include="NewFolder1\indice.jpg" />
+    <Content Include="NewFolder1\indice1.jpg" />
+    <Content Include="NewFolder1\logo.png" />
+    <Content Include="NewFolder1\news-bg.jpg" />
+    <Content Include="NewFolder1\oi.jpg" />
+    <Content Include="NewFolder1\olive.png" />
+    <Content Include="NewFolder1\oshomah.jpg" />
+    <Content Include="NewFolder1\p-1.jpg" />
+    <Content Include="NewFolder1\p-2.jpg" />
+    <Content Include="NewFolder1\p-3.jpg" />
+    <Content Include="NewFolder1\portfolio-bg.jpg" />
+    <Content Include="NewFolder1\Quadra.jpg" />
+    <Content Include="NewFolder1\SESI.jpg" />
+    <Content Include="NewFolder1\single-cause-bg.jpg" />
+    <Content Include="NewFolder1\teamwork.png" />
+    <Content Include="NewFolder1\testimonial-1.jpg" />
+    <Content Include="NewFolder1\testimonial-2.jpg" />
+    <Content Include="NewFolder1\u-1.jpg" />
+    <Content Include="NewFolder1\u-2.jpg" />
+    <Content Include="NewFolder1\u-3.jpg" />
+    <Content Include="NewFolder1\welcome-bg.jpg" />
+    <Content Include="NewFolder1\welcome.jpg" />
+    <Content Include="Scripts\animsition.js" />
+    <Content Include="Scripts\animsition.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="fonts\SourceSansPro-Black.ttf" />
+    <Content Include="fonts\SourceSansPro-BlackItalic.ttf" />
+    <Content Include="fonts\SourceSansPro-Bold.ttf" />
+    <Content Include="fonts\SourceSansPro-BoldItalic.ttf" />
+    <Content Include="fonts\SourceSansPro-ExtraLight.ttf" />
+    <Content Include="fonts\SourceSansPro-ExtraLightItalic.ttf" />
+    <Content Include="fonts\SourceSansPro-Italic.ttf" />
+    <Content Include="fonts\SourceSansPro-Light.ttf" />
+    <Content Include="fonts\SourceSansPro-LightItalic.ttf" />
+    <Content Include="fonts\SourceSansPro-Regular.ttf" />
+    <Content Include="fonts\SourceSansPro-SemiBold.ttf" />
+    <Content Include="fonts\SourceSansPro-SemiBoldItalic.ttf" />
+    <Content Include="App_Data\bootstrap-grid.css.map" />
+    <Content Include="App_Data\bootstrap-grid.min.css.map" />
+    <Content Include="App_Data\bootstrap-reboot.css.map" />
+    <Content Include="App_Data\bootstrap-reboot.min.css.map" />
+    <Content Include="App_Data\bootstrap.css.map" />
+    <Content Include="App_Data\bootstrap.min.css.map" />
+    <Content Include="App_Data\animated.less" />
+    <Content Include="App_Data\bordered-pulled.less" />
+    <Content Include="App_Data\core.less" />
+    <Content Include="App_Data\fixed-width.less" />
+    <Content Include="App_Data\font-awesome.less" />
+    <Content Include="App_Data\font-awesome.scss" />
+    <Content Include="App_Data\fontawesome-webfont.eot" />
+    <Content Include="App_Data\fontawesome-webfont.ttf" />
+    <Content Include="App_Data\fontawesome-webfont.woff" />
+    <Content Include="App_Data\fontawesome-webfont.woff2" />
+    <Content Include="App_Data\FontAwesome.otf" />
+    <Content Include="App_Data\icons.less" />
+    <Content Include="App_Data\larger.less" />
+    <Content Include="App_Data\list.less" />
+    <Content Include="App_Data\mixins.less" />
+    <Content Include="App_Data\path.less" />
+    <Content Include="App_Data\rotated-flipped.less" />
+    <Content Include="App_Data\screen-reader.less" />
+    <Content Include="App_Data\stacked.less" />
+    <Content Include="App_Data\variables.less" />
+    <Content Include="App_Data\_animated.scss" />
+    <Content Include="App_Data\_bordered-pulled.scss" />
+    <Content Include="App_Data\_core.scss" />
+    <Content Include="App_Data\_fixed-width.scss" />
+    <Content Include="App_Data\_icons.scss" />
+    <Content Include="App_Data\_larger.scss" />
+    <Content Include="App_Data\_list.scss" />
+    <Content Include="App_Data\_mixins.scss" />
+    <Content Include="App_Data\_path.scss" />
+    <Content Include="App_Data\_rotated-flipped.scss" />
+    <Content Include="App_Data\_screen-reader.scss" />
+    <Content Include="App_Data\_stacked.scss" />
+    <Content Include="App_Data\_variables.scss" />
+    <Content Include="fonts\font-awesome.scss" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\ElegantIcons.eot" />
+    <Content Include="fonts\ElegantIcons.ttf" />
+    <Content Include="fonts\ElegantIcons.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\themify.eot" />
+    <Content Include="fonts\themify.ttf" />
+    <Content Include="fonts\themify.woff" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\circle-progress.min.js" />
+    <Content Include="Scripts\custom.js" />
+    <Content Include="Scripts\Gruntfile.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery.barfiller.js" />
+    <Content Include="Scripts\jquery.collapsible.min.js" />
+    <Content Include="Scripts\jquery.countdown.js" />
+    <Content Include="Scripts\jquery.countdown.min.js" />
+    <Content Include="Scripts\jquery.countTo.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\jquery.mask.js" />
+    <Content Include="Scripts\jquery.mask.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\moment.js" />
+    <Content Include="Scripts\moment.min.js" />
+    <Content Include="Scripts\package.js" />
+    <Content Include="Scripts\perfect-scrollbar.min.js" />
+    <Content Include="Scripts\RecuperarValor.js" />
+    <Content Include="Scripts\select2.js" />
+    <Content Include="Scripts\swiper.js" />
+    <Content Include="Scripts\swiper.min.js" />
+    <Content Include="Scripts\tooltip.js" />
+    <Content Include="Web.config" />
+    <Content Include="Views\Principal\Principal.cshtml" />
+    <Content Include="Views\Cadastro\CadastroNutricionista.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AcessoController.cs" />
+    <Compile Include="Controllers\CadastroController.cs" />
+    <Compile Include="Controllers\ExcluirController.cs" />
+    <Compile Include="Controllers\ListaController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\PrincipalController.cs" />
+    <Compile Include="Controllers\RecuperarSenhaController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\BancoDeDados.cs" />
+    <Compile Include="Models\Editar.cs" />
+    <Compile Include="Models\Excluir.cs" />
+    <Compile Include="Models\Listar.cs" />
+    <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\Cadastro.cs" />
+    <Compile Include="Models\RecuperarSenha.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Login\Login.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Views\Acesso\Professor.cshtml" />
+    <Content Include="Views\Acesso\Nutricionista.cshtml" />
+    <Content Include="Views\Acesso\Aluno.cshtml" />
+    <Content Include="Views\Lista\Aluno.cshtml" />
+    <Content Include="Views\RecuperarSenha\RecuperarSenha.cshtml" />
+    <Content Include="Views\Cadastro\CadastroAluno.cshtml" />
+    <Content Include="Views\Cadastro\CadastroProfessor.cshtml" />
+    <Content Include="Views\Cadastro\CadastroInstituicao.cshtml" />
+    <Content Include="Views\Acesso\Instituicao.cshtml" />
+    <Content Include="Views\Lista\Instituicao.cshtml" />
+    <Content Include="Views\Lista\Professor.cshtml" />
+    <Content Include="Views\Cadastro\CadastroSala.cshtml" />
+    <Content Include="Views\Lista\AlunoLista.cshtml" />
+    <Content Include="Views\Lista\EditarAluno.cshtml" />
+    <Content Include="Views\Lista\Nutricionista.cshtml" />
+    <Content Include="Views\Lista\NutricionistaLista.cshtml" />
+    <Content Include="Views\Lista\ProfessorLista.cshtml" />
+    <Content Include="Views\Lista\EditarProfessor.cshtml" />
+    <Content Include="Views\Lista\EditarNutricionista.cshtml" />
+    <Content Include="Views\Lista\EditarInstituicao.cshtml" />
+    <Content Include="Views\Lista\Almoco.cshtml" />
+    <Content Include="Views\Cadastro\CadastroAulas.cshtml" />
+    <Content Include="Views\Cadastro\PostarCardapio.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>35122</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:35122/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,74 @@
+﻿@model AppSchool.Models.Editar
+
+@{
+    ViewBag.Title = "Instituicao";
+}
+
+<center>
+    <form action="~/Lista/EditarInstituicao" method="post" enctype="multipart/form-data">
+
+        <div class="form-horizontal">
+            <h4>Editar instituicao</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Cnpj, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Cnpj, new { htmlAttributes = new { @class = "form-control", Type = "text" } })
+                    @Html.ValidationMessageFor(model => model.Cnpj, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.NomeInst, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.NomeInst, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.NomeInst, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Telefone, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Telefone, new { htmlAttributes = new { @class = "form-control", Type = "text" } })
+                    @Html.ValidationMessageFor(model => model.Telefone, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Cep, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Cep, new { htmlAttributes = new { @class = "form-control", Type = "text" } })
+                    @Html.ValidationMessageFor(model => model.Cep, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Endereco, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Endereco, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Endereco, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Numero, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Numero, new { htmlAttributes = new { @class = "form-control", Type = "text" } })
+                    @Html.ValidationMessageFor(model => model.Numero, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Salvar" class="btn btn-default" />
+                </div>
+                <br />
+                <div class="col-md-offset-2 col-md-10">
+                    <a href="~/Lista/Instituicao" class="btn btn-light">Voltar</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</center>

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<AppSchool.Models.Cadastro>
+
+@{
+    ViewBag.Title = "Instituicao";
+}
+
+<h2>Instituicao</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Cnpj)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeInst)
+        </th>      
+        <th>
+            @Html.DisplayNameFor(model => model.Cep)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Numero)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cnpj)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeInst)
+        </td>   
+        <td>
+            @Html.DisplayFor(modelItem => item.Cep)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Endereco)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Numero)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Telefone)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "EditarInstituicao", new { id = item.Cnpj }) 
+            @Html.ActionLink("Excluir", "ExcluirInstituicao", new { id = item.Cnpj })
+        </td>
+    </tr>
+}
+
+</table>

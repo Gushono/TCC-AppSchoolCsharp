@@ -1,0 +1,77 @@
+﻿@model AppSchool.Models.Login
+@{
+    ViewBag.Title = "Logar";
+}
+@{ Layout = null;}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/jpeg" href="~/App_Data/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/bootstrap.min.css"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/font-awesome.min.css"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/animate.css"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/animsition.min.css"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/select2.min.css"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/daterangepicker.css"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Content/util.css"/>
+    <link rel="stylesheet" type="text/css" href="~/Content/main.css"/>
+    <!--===============================================================================================-->
+</head>
+<body>
+    <div class="limiter">
+        <div class="container-login100" style="background-color: #cc0000">
+            <div class="wrap-login100" style="width: 90%; border:solid; border-color: black;" >           
+                    <form class="login100-form validate-form" method="post">
+                        <span class="login100-form-title p-b-34">
+                            Login
+                        </span>
+                        <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name" style="width:51%; margin-left:200px ">
+                            <input id="cpf" class="input100" type="text" name="cpf" placeholder="CPF">
+                        </div>
+
+                        <div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20" data-validate="Type password" style="width:51%; margin-left:200px ">
+                            <input id="senha" class="input100" type="password" name="senha" placeholder="Senha">
+                        </div>
+                        <div class="container-login100-form-btn">
+                            <input type="submit" value="Logar" class="btn btn-default" />
+                        </div>
+                        <div class="w-full text-center p-t-27 p-b-239">
+                            <a href="~/RecuperarSenha/RecuperarSenha" class="txt2">
+                                <h5>Esqueceu sua Senha?!</h5>
+                            </a>
+                        </div>
+                    </form>
+                <div id="img" class="login100-more"></div>
+            </div>
+        </div>
+    </div>
+    <div id="dropDownSelect1"></div>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Scripts/jquery-3.2.1.min.js"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Scripts/animsition.min.js"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Scripts/popper.js"/>
+    <link rel="stylesheet" type="text/css" href="~/Scripts/bootstrap.min.js"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Scripts/daterangepicker.js" />
+    <link rel="stylesheet" type="text/css" href="~/Scripts/daterangepicker.js">    
+</body>
+</html>
+<script>
+
+window.history.forward(1);
+
+</script>

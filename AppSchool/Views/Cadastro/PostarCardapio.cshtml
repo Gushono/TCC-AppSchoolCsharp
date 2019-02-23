@@ -1,0 +1,25 @@
+﻿@model AppSchool.Models.Cadastro
+@{
+    ViewBag.Title = "Postar Cardápio";
+}
+<center>
+    <h2>Postar Cardápio</h2>
+    <form action="~/Cadastro/PostarCardapio" method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+           <label>Cardápio</label>
+            <div class="col-md-10">
+                <input type="file" name="Img" />
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Enviar" class="btn btn-default" />
+            </div>
+            <br />
+            <div class="col-md-offset-2 col-md-10">
+                <a href="~/Principal/Principal" class="btn btn-light">Voltar</a>
+            </div>
+        </div>
+    </form>
+</center>

@@ -1,0 +1,40 @@
+﻿@model AppSchool.Models.Cadastro
+
+@{
+    ViewBag.Title = "Cadastro de Sala";
+}
+<center>
+    <h2>Cadastro de Sala</h2>
+
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <form action="~/Cadastro/CadastroSala" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Turma, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <select class="custom-select" name="saladeAula" id="saladeAula">
+                        <option value="3 ano A">3 ano A</option>
+                        <option value="3 ano B">3 ano B</option>
+                        <option value="3 ano C">3 ano C</option>
+                        <option value="3 ano D">3 ano D</option>
+                        <option value="3 ano E">3 ano E</option>
+                    </select>
+                    @Html.ValidationMessageFor(model => model.Turma, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Cadastrar" class="btn btn-default" />
+                </div>
+                <br />
+                <div class="col-md-offset-2 col-md-10">
+                    <a href="~/Principal/Principal" class="btn btn-light">Voltar</a>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</center>
+

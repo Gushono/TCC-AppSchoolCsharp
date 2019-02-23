@@ -1,0 +1,642 @@
+﻿@model AppSchool.Models.Cadastro
+@{
+    ViewBag.Title = "Cadastro de Aulas";
+}
+<center>
+    <h2>Cadastro de Aulas</h2>
+    <br/>
+    <form action="~/Cadastro/CadastroAulas" method="post" enctype="multipart/form-data">
+
+            <div class="col-md-10">
+                <label>Selecione a sala</label>
+                <br/>
+                <select class="custom-select" name="saladeaula" id="saladeaula">
+                    <option value="3 ano A">3 ano A</option>
+                    <option value="3 ano B">3 ano B</option>
+                    <option value="3 ano C">3 ano C</option>
+                    <option value="3 ano D">3 ano D</option>
+                    <option value="3 ano E">3 ano E</option>
+                </select>
+            </div>
+        <br/>
+        <table border=1>
+            <tr>
+                <td WIDTH=80>Ordem das Aulas</td>
+                <td WIDTH=80><center>Segunda</center></td>
+                <td WIDTH=80><center>Terça</center></td>
+                <td WIDTH=80><center>Quarta</center></td>
+                <td WIDTH=80><center>Quinta</center></td>
+                <td WIDTH=80><center>Sexta</center></td>
+            </tr>
+            <tr>
+                <td><center>1º</center></td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><center>2º</center></td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia2">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><center>3º</center></td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><center>4º</center></td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><center>5º</center></td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><center>6º</center></td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="custom-select" name="materia" id="materia">
+                        <option value=""></option>
+                        <option value="Matemática">Matemática</option>
+                        <option value="Química">Química</option>
+                        <option value="Física">Física</option>
+                        <option value="Lingua Portuguesa">Lingua Portuguesa</option>
+                        <option value="Inglês">Inglês</option>
+                        <option value="Artes">Artes</option>
+                        <option value="Educação Física">Educação Física</option>
+                        <option value="História">História</option>
+                        <option value="Geografia">Geografia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Filosofia">Filosofia</option>
+                        <option value="Sociologia">Sociologia</option>
+                        <option value="Eixo">Eixo</option>
+                        <option value="Facultativa">Facultativa</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Cadastrar" class="btn btn-default" />
+            </div>
+            <br/>
+            <div class="col-md-offset-2 col-md-10">                 
+                <a href="~/Principal/Principal" class="btn btn-light">Voltar</a>                       
+            </div>
+        </div>
+    </form>
+</center>
+@section Scripts {
+<script src="~/Scripts/RecuperarValor.js"></script>
+<script>
+    $.getJSON("/Cadastro/CadastroAulas", { materia:materia }
+, function (result) {
+    alert("Dados Gravados");
+});
+</script>
+
+}
+
