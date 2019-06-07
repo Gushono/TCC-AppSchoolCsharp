@@ -10,9 +10,7 @@ namespace AppSchool.Models
     public class Excluir
     {
 /**************************************************************************************CONEXAO BANCO DE DADOS**********************************************************************************************/
-        static SqlConnection con =
-             new SqlConnection("Server=ESN509VMSSQL;Database=appSchool;User id = Aluno;Password=Senai1234");
-
+        SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["BCD"].ConnectionString);
 /**************************************************************************************VARIAVEIS**********************************************************************************************/
 
         private long cpf;
