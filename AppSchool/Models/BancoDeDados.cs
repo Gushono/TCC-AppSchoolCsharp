@@ -8,7 +8,7 @@ namespace AppSchool.Models
 {
     public class BancoDeDados
     {
-       SqlConnection con = new SqlConnection("Server=ESN509VMSSQL;Database=AppSchool;User id = Aluno;Password=Senai1234");
+       SqlConnection con = new SqlConnection("Server=***;Database=***;User id = ***;Password=***");
 
         public long cpf;
         public string codigo;
